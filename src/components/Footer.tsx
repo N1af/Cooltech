@@ -13,6 +13,8 @@ const Footer = () => {
   const services = [
     "AC Repair",
     "Fridge Repair",
+    "Washing Machine Repair",
+    "Dryer Repair",
     "Gas Refilling",
     "Annual Maintenance",
   ];
@@ -102,10 +104,10 @@ const Footer = () => {
                 <Phone className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <a
-                    href="tel:+94123456789"
+                    href="tel:+94770733074"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +94 123 456 789
+                    +94 77 073 3074
                   </a>
                 </div>
               </li>

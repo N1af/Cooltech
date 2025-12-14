@@ -555,10 +555,10 @@ const Home = () => {
                   Contact Us Now
                 </Button>
               </Link>
-              <a href="tel:+94123456789">
+              <a href="tel:+94770733074">
                 <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10 shadow-lg">
                   <Phone className="h-5 w-5 mr-2" />
-                  Call: +94 123 456 789
+                  Call: +94 77 073 3074
                 </Button>
               </a>
             </div>

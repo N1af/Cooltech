@@ -137,7 +137,7 @@ const Navbar = () => {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ delay: 0.4 }}
               >
-                <a href="tel:+94123456789" className="block">
+                <a href="tel:+94770733074" className="block">
                   <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground gap-2">
                     <Phone className="h-4 w-4" />
                     Call Now

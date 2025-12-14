@@ -15,7 +15,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import ownerImage from "@/assets/owner.jpg";
+import ownerImage from "@/assets/owner.jpeg";
 
 const ContactPage = () => {
   const { toast } = useToast();
@@ -39,9 +39,9 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+94 123 456 789", "+94 987 654 321"],
+      details: ["+94 77 073 3074", "+94 70 303 3074"],
       action: "Call Now",
-      link: "tel:+94123456789",
+      link: "tel:+94770733074",
     },
     {
       icon: Mail,
