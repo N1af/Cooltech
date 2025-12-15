@@ -115,17 +115,17 @@ const Footer = () => {
                 <Mail className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <a
-                    href="mailto:info@cooltech.lk"
+                    href="mailto:cooltechrefrigeration2000@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    info@cooltech.lk
+                    cooltechrefrigeration2000@gmail.com
                   </a>
                 </div>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div className="text-muted-foreground">
-                  123 Main Street<br />Hatton, Sri Lanka
+                  No 15, Nuwareliya Road <br/> Hatton
                 </div>
               </li>
             </ul>

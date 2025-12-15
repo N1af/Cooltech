@@ -305,9 +305,9 @@ const ServicesPage = () => {
                   Contact Us Now
                 </Button>
               </Link>
-              <a href="tel:+94123456789">
+              <a href="tel:+94770733074">
                 <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                  Call: +94 123 456 789
+                  Call: +94 77 073 3074
                 </Button>
               </a>
             </div>

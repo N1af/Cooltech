@@ -2,8 +2,11 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Phone } from "lucide-react";
 import logo from "/logo1.png";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Animated background elements */}
@@ -64,14 +67,17 @@ const Hero = () => {
             <Button
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-outfit font-semibold px-8 py-6 text-lg rounded-xl shadow-lg hover:shadow-primary/50 transition-all duration-300 group"
+              onClick={() => navigate("/services")}
             >
               Our Services
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
+
             <Button
               size="lg"
               variant="outline"
               className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground font-outfit font-semibold px-8 py-6 text-lg rounded-xl transition-all duration-300"
+              onClick={() => navigate("/contact")}
             >
               <Phone className="mr-2" />
               Contact Us

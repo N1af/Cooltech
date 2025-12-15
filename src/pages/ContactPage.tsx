@@ -39,21 +39,21 @@ const ContactPage = () => {
     {
       icon: Phone,
       title: "Phone",
-      details: ["+94 77 073 3074", "+94 70 303 3074"],
+      details: ["+94 77 073 3074", "+94 77 745 1935"],
       action: "Call Now",
       link: "tel:+94770733074",
     },
     {
       icon: Mail,
       title: "Email",
-      details: ["info@cooltech.lk", "service@cooltech.lk"],
+      details: ["cooltechrefrigeration2000@gmail.com"],
       action: "Send Email",
-      link: "mailto:info@cooltech.lk",
+      link: "mailto:cooltechrefrigeration2000@gmail.com",
     },
     {
       icon: MapPin,
       title: "Location",
-      details: ["123 Main Street", "Hatton, Sri Lanka"],
+      details: ["No 15,", "NuwareliyaRoad, Hatton"],
       action: "Get Directions",
       link: "https://maps.google.com",
     },
@@ -343,7 +343,7 @@ const ContactPage = () => {
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground gap-2"
                   >
                     <Phone className="h-5 w-5" />
-                    Call: +94 123 456 789
+                    Call: +94 77 073 3074
                   </Button>
                 </a>
                 <p className="text-sm text-muted-foreground mt-4 text-center">
