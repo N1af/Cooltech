@@ -40,7 +40,7 @@ const ServicesPage = () => {
         "Duct Cleaning",
         "Thermostat Replacement",
       ],
-      price: "Starting from Rs. 1,500",
+  
     },
     {
       icon: Snowflake,
@@ -55,7 +55,7 @@ const ServicesPage = () => {
         "Temperature Control",
         "Annual Maintenance",
       ],
-      price: "Starting from Rs. 1,200",
+
     },
     {
       icon: Wrench,
@@ -70,7 +70,7 @@ const ServicesPage = () => {
         "Control Panel Fixes",
         "Preventive Maintenance",
       ],
-      price: "Starting from Rs. 1,000",
+    
     },
     {
       icon: Home,
@@ -85,7 +85,7 @@ const ServicesPage = () => {
         "Installation Services",
         "Warranty Support",
       ],
-      price: "Starting from Rs. 800",
+     
     },
     {
       icon: Car,
@@ -100,7 +100,7 @@ const ServicesPage = () => {
         "Leak Detection",
         "Performance Optimization",
       ],
-      price: "Starting from Rs. 2,000",
+    
     },
     {
       icon: Refrigerator,
@@ -115,7 +115,7 @@ const ServicesPage = () => {
         "Energy Efficiency Check",
         "Regular Servicing",
       ],
-      price: "Starting from Rs. 2,500",
+      
     },
     {
       icon: Factory,
@@ -130,7 +130,7 @@ const ServicesPage = () => {
         "Temperature Control",
         "Complete Refurbishment",
       ],
-      price: "Starting from Rs. 5,000",
+   
     },
   ];
 
@@ -220,9 +220,7 @@ const ServicesPage = () => {
                         ))}
                       </div>
                       <div className="flex items-center justify-between pt-6 border-t border-border">
-                        <span className="text-lg font-semibold text-primary">
-                          {service.price}
-                        </span>
+                        
                         <Link to="/contact">
                           <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
                             Book Service
